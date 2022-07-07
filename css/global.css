@@ -1,0 +1,29 @@
+:root {
+    --main-color:#ff6600;
+    --white:#fff;
+    --light-gray: #bdbdbd;
+    --gray:#212225;
+    --dark-main:#121212;
+    --black:#000;
+  
+  }
+
+  body {
+    background-color: var(--dark-main) !important; 
+    }
+
+    h1, h2, h3, h4, h5, h6, p, small{
+      color: var(--white) !important;
+    }
+  
+    ::selection{
+      color: var(--main-color);
+    }
+
+    .container-fluid{
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    
+  
