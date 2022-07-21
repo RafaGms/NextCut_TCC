@@ -2,7 +2,7 @@
     <div class="row">
         <div class="text-inicio">
             <h1 class="mb-3">Mais avaliados</h1>
-            <h4 class="mb-3">Escolha o melhor horario para voçê, agende agora!</h4>
+            <h4 class="mb-3">Escolha o melhor horario para você, agende agora!</h4>
         </div>
         <div class="col-md-4 col-sm-12">
             <a href="">
@@ -86,7 +86,7 @@
 
     </div>
 </div>
-<div class="container-fluid mb-4 mt-5 divisao">
+<div data-aos="fade-up" class="container-fluid mb-4 mt-5 divisao">
     <div class="container p-5">
         <div class="row ">
             <div class="col-lg-6 col-md-12">
@@ -130,7 +130,7 @@
                 </div>
                 <div class="card-body p-4">
                     <h4>Em duvida do corte?</h4>
-                    <p class="card-text">O Site de cabeleireiros líder no mundo, oferece serviços de beleza e cuidados com os cabelos. Oferecemos uma experiência que atende às necessidades de cabelos curto, longo, reto, encaracolado, ondulado a altamente texturizado – os profissionais da NextCut criarão um corte e estilo para se adequar ao seu visual e estilo de vida.</p>
+                    <p class="card-text">O Site de cabeleireiros líder no mundo, oferece serviços de beleza e cuidados com os cabelos. Oferecemos uma experiência que atende às necessidades de cabelos curto, longo, reto, encaracolado, ondulado a altamente texturizado – os afiliados da NextCut criarão um corte e estilo para se adequar ao seu visual e estilo de vida.</p>
                 </div>
             </div>
         </div>
@@ -198,4 +198,8 @@
         </div>
     </div>
 </div>
-</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--plugin jquey-->
+<script>
+    AOS.init();
+</script>
